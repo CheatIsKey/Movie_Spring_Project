@@ -1,4 +1,6 @@
 package jpa.basic.movie.dto;
 
-public record MovieUpdateRequestDto() {
+public record MovieUpdateRequestDto(
+        String title
+) {
 }
